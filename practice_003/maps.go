@@ -12,9 +12,9 @@ func main() {
 
 
 func HalfPriceSale(prices map[string]float64) map[string]float64 {
-    doublePriced := make(map[string]float64)
+    halfPriced := make(map[string]float64)
     for key, value := range prices {
-        doublePriced[key] = value / 2
+        halfPriced[key] = value / 2
     }
-    return doublePriced
+    return halfPriced
 }
